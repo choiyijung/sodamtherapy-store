@@ -1,0 +1,39 @@
+/* 소담테라피 • site8 factory theme • v1 */
+:root {--s8-dark:#182D43;--s8-accent:#357CAC;--s8-light:#F5FAFD;--s8-gold:#8BCED7;}
+body {background:var(--s8-light);}
+.site {box-shadow:0 15px 65px rgba(0,0,0,.065);}
+.header {border-bottom-color:#8BCED766;}
+.logo-copy b,.footer-logo b {color:var(--s8-dark);}
+.search button,.detail-btn,.bottom-nav .active {background:var(--s8-accent)!important;color:white!important;}
+.quick a,.partner,footer {background:var(--s8-dark)!important;color:#fff;}
+.card,.region-row {border-radius:20px;border-color:#357CAC33;}
+.thumb {background:linear-gradient(145deg,#182D43,#357CAC);}
+.ml-test-hero {background:linear-gradient(150deg,#182D43,#357CAC)!important;}
+.ml-test-feature {background:#357CAC!important;}
+.ml-test-phone {background:#182D43!important;color:#fff!important;}
+.ml-test-sms {background:#F5FAFD!important;color:#182D43!important;}
+.ml-test-title,.ml-test-loc {color:#8BCED7!important;}
+.ml-test-contact a {border-radius:26px;}
+.haru-home .header {border-bottom-color:#357CAC4d!important;}
+.haru-home .mark,.haru-home .footer-logo .mark {background:linear-gradient(145deg,#182D43,#357CAC)!important;}
+.haru-home .logo-copy b {color:#182D43!important;}
+.haru-home .logo-copy small {color:#357CAC!important;}
+.haru-home main > .main-title-section {background:linear-gradient(120deg,#182D43,#357CAC)!important;border-radius:28px!important;}
+.haru-home main > .main-title-section h1 em {color:#8BCED7!important;}
+.haru-home .haru-hero-eyebrow,.haru-home .haru-hero-caption {color:#8BCED7!important;}
+.haru-home .haru-primary-action {background:#8BCED7!important;color:#182D43!important;}
+.haru-home .haru-hero-art {object-fit:cover!important;border-radius:26px!important;width:39%!important;height:75%!important;max-height:none!important;right:2%!important;bottom:12%!important;opacity:.96!important;filter:drop-shadow(0 14px 20px #0004)!important;}
+.haru-home main > .categories-section {background:#F5FAFD!important;border-color:#8BCED766!important;}
+.haru-home .categories i {background:#8BCED733!important;color:#182D43!important;}
+.haru-home .search button,.haru-home .detail-btn {background:#357CAC!important;border-color:#357CAC!important;}
+.haru-home .quick a {background:linear-gradient(125deg,#182D43,#357CAC)!important;border-color:#357CAC66!important;}
+.haru-home .quick a:nth-child(2) {background:linear-gradient(125deg,#357CAC,#182D43)!important;}
+.haru-home .quick a:nth-child(3) {background:linear-gradient(125deg,#182D43,#8BCED799)!important;}
+.haru-home .main-special-card {background:linear-gradient(135deg,#fff,#F5FAFD)!important;border-color:#357CAC44!important;}
+.haru-home .section-title>a,.haru-home .tabs button.active {color:#357CAC!important;}
+.haru-home .region-row,.haru-home .card {border-radius:20px!important;border-color:#357CAC33!important;}
+.haru-home .thumb {background:linear-gradient(145deg,#182D43,#357CAC)!important;}
+.haru-home .badge,.haru-home .region-row-thumb b {background:#8BCED7!important;color:#182D43!important;}
+.haru-home footer {background:#182D43!important;}
+.haru-home .partner {background:linear-gradient(125deg,#182D43,#357CAC)!important;}
+@media(max-width:700px) {.haru-home .haru-hero-art {width:44%!important;height:35%!important;right:1%!important;bottom:2%!important;}}
